@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Fotos Dinâmicas</title>
+</head>
+<body>
+    <h1>Imagens Flexíveis</h1>
+    <p>Está vendo a imagem completa? Amplie o tamanho da janela para ver tudo &#x1F440;</p>
+    <picture>
+        <source media="(min-width: 1800px)" srcset="imagens/1920-1080.jpg" type="image/jpeg">
+        <source media="(min-width: 1220px)" srcset="imagens/1200-1600.jpg" type="image/jpeg">
+        <img src="imagens/1080-1920.jpg" alt="menor">
+    </picture>
+</body>
+</html>
