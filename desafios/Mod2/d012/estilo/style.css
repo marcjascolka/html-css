@@ -37,7 +37,7 @@
             padding-top: 50px;
             font-family: 'Passion One', sans-serif;
             font-weight: bold;
-            font-size: 3em;
+            font-size: 10vw;
             
         }
 
@@ -48,9 +48,10 @@
 
         section{
             padding-top: 10vh;
-            padding-bottom: 10vh;
+            padding-bottom: 20vh;
             padding-left: 30px;
             line-height: 2em;
+            font-size: 3.7vw;
         }
 
         section.normal{
@@ -59,18 +60,20 @@
         }
 
         section.imagem{
-            padding-bottom: 50px;
+            background-color: rgba(0, 0, 0, 0.37);
+            color: white;
         }
 
         section.imagem > p{
             color: white;
             background-color: rgba(0, 0, 0, 0.479);
-            width: 400px;
+            display: inline-block;
+            padding: 5px;
         }
 
         section p{
             font-family: "Sriracha", cursive;
-            font-size: ;
+            padding-bottom: 30px;
         }
 
 
