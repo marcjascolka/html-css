@@ -8,15 +8,18 @@
         @import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swa');
         @import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&family=Sriracha&display=swap');
         
-        
         *{
             margin: 0;
             padding: 0;
         }
+
         h1{
+
+            padding-top: 50px;
             font-family: 'Passion One', sans-serif;
             font-weight: bold;
-            width: auto;
+            font-size: 3em;
+            
         }
         
         a{
@@ -24,32 +27,55 @@
             text-decoration: none;
 
         }
+
         a:hover{
             text-decoration: underline;
         }
+
         header{
+            position: relative;
             text-align: center;
             height: 200px;
             color: white;
             background-color: black;
-
-        }
-        
-        article > p{
             
-            max-height: 400px;
-            min-height: 100px;
-            max-width: 900px;
-            max-width: 400px;
-            font-family: "Sriracha", cursive;
         }
-        #joaninha{
-            background: white url('imagens/background001.jpg') center center;
+
+        header p{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            padding-bottom: 50px;
         }
-        #preto{
+
+        section{
+            padding-top: 50px;
+            padding-left: 35px;
+        }
+
+        .normal p{
+            padding-bottom: 30px;
+        }
+
+        .imagem{
+            padding-bottom: 50px;
+        }
+
+        .imagem > p{
+            max-width: 350px;
             color: white;
             background-color: rgba(0, 0, 0, 0.479);
-            width: 400px;
+        }
+
+        section p{
+            font-family: "Sriracha", cursive;
+        }
+
+
+        #img01{
+            background: white url('imagens/background001.jpg') center center fixed;
+        }
+
+        #img02{
+            background: white url('imagens/background002.jpg') center center fixed;
         }
 
         footer{
@@ -66,82 +92,133 @@
 </head>
 <body>
     <header>
-        <h1>Cordel Moderno</h1>
-        <p>Por <a href="https://www.recantodasletras.com.br/poesias/3186743" target="_blank" rel="external">Milton Duarte</a></p>
+        <h1>CORDEL MODERNO</h1>
+        <p>Por <a href="https://www.recantodasletras.com.br/poesias/3186743" target="_blank" rel="external"><strong>Milton Duarte</strong></a></p>
     </header>
-    <section>
-        <article>
+        <section class="normal">
+            <p>
+                    Estou ficando cansado
+                    <br>
+                    Da tal tecnologia
+                    <br>
+                    Só se fala por e-mail
+                    <br>
+                    Mensagem curta e fria
+                    <br>
+                    Twitter e Facebook
+                    <br>
+                    Antes que eu caduque
+                    <br>
+                    Vou dizer tudo em poesia.
+                    <br>
+            </p>
+        </section>
+
+            <section class="imagem" id="img01">
                 <p>
-                Estou ficando cansado
-                Da tal tecnologia
-                Só se fala por e-mail
-                Mensagem curta e fria
-                Twitter e Facebook
-                Antes que eu caduque
-                Vou dizer tudo em poesia.</p>
-                
-                
-                <div id="joaninha">
-                    <p id="preto">
-                        Não é mais como era antes
-                        É tudo abreviado
-                        "Você" só tem duas letras
-                        O "O" e o "E" foi riscado
-                        Para declarar o amor
-                        Basta botar uma flor
-                        E um coração desenhado.
+                            Não é mais como era antes
+                            <br>
+                            É tudo abreviado
+                            <br>
+                            "Você" só tem duas letras
+                            <br>
+                            O "O" e o "E" foi riscado
+                            <br>
+                            Para declarar o amor
+                            <br>
+                            Basta botar uma flor
+                            <br>
+                            E um coração desenhado.
+
                     </p>
-                </div>
+            </section>
                 
-                
+            <section class="normal">
                 <p>
                     Arroba agora não pesa
+                    <br>
                     É parte de um endereço
+                    <br>
                     Ponto final nem se usa
+                    <br>
                     Ou vai até no começo
+                    <br>
                     Agora é .com
+                    <br>
                     Se o saite é muito bom
+                    <br>
                     Ele vale um alto preço.
-                </p>
-                
-                <p>
+                    <br>
+                    
                     Pra piorar a liguagem
+                    <br>
                     O emoticom é um risco
+                    <br>
                     Tem símbolo para tudo
+                    <br>
                     Ponto e vírgula e um asterisco
+                    <br>
                     Um beijo significa
+                    <br>
                     Pra entender como fica
+                    <br>
                     Decifre esse rabisco.
+                    <br>
+
                 </p>
+            </section>
                 
-                <div>
-                    <p id="preto">
-                        Tenho saudade das cartas
-                        Escritas com a própria mão
-                        Mandava no mês de Junho
-                        Só chegava no Verão
-                        Mas matava a saudade
-                        Era texto de verdade
-                        Nas linhas do coração.
-                    </p>
-                </div>
+            <section class="imagem" id="img02">
+                <p>
+                            Tenho saudade das cartas
+                            <br>
+                            Escritas com a própria mão
+                            <br>
+                            Mandava no mês de Junho
+                            <br>
+                            Só chegava no Verão
+                            <br>
+                            Mas matava a saudade
+                            <br>
+                            Era texto de verdade
+                            <br>
+                            Nas linhas do coração.
+                            <br>
+                </p>
+            </section>
                 
+            <section class="normal">
                 <p>Agora, escrevo e envio
-                Chegando na mesma hora
-                Mas quando vou prosear
-                A pessoa foi embora
-                Abriu outro aplicativo
-                O mundo ficou cativo
-                Da tecnologia do agora.</p>
-                
-                <p>Felizmente, pra orar
-                Não precisa de internet
-                Deus escuta todo mundo
-                Se quiser, faça esse teste
-                Dois pontos são dois joelhos
-                Seus lábios são aparelhos
-                Deixe que Deus interprete.</p>
-        </article>
+                    <br>
+                    Chegando na mesma hora
+                    <br>
+                    Mas quando vou prosear
+                    <br>
+                    A pessoa foi embora
+                    <br>
+                    Abriu outro aplicativo
+                    <br>
+                    O mundo ficou cativo
+                    <br>
+                    Da tecnologia do agora.
+                    <br>
+                    
+                    Felizmente, pra orar
+                    <br>
+                    Não precisa de internet
+                    <br>
+                    Deus escuta todo mundo
+                    <br>
+                    Se quiser, faça esse teste
+                    <br>
+                    Dois pontos são dois joelhos
+                    <br>
+                    Seus lábios são aparelhos
+                    <br>
+                    Deixe que Deus interprete.
+                    <br>
+                </p>
+            </section>
     </section>
 </body>
 <footer>
