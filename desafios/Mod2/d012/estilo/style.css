@@ -1,0 +1,94 @@
+        @charset 'UTF-8';
+
+        @import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swa');
+        @import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&family=Sriracha&display=swap');
+        
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        html, body{
+            min-height: 100vh;
+            background-color: darkgray;
+        }
+        
+        a{
+            color: white;
+            text-decoration: none;
+            font-weight: bolder;
+
+        }
+
+        a:hover{
+            text-decoration: underline;
+        }
+
+        header{
+            text-align: center;
+            max-height: 300px;
+            min-height: 150px;
+            color: white;
+            background-color: black;
+        }
+
+        header h1{
+            font-variant: small-caps;
+            padding-top: 50px;
+            font-family: 'Passion One', sans-serif;
+            font-weight: bold;
+            font-size: 3em;
+            
+        }
+
+        header p{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            padding-bottom: 50px;
+        }
+
+        section{
+            padding-top: 10vh;
+            padding-bottom: 10vh;
+            padding-left: 30px;
+            line-height: 2em;
+        }
+
+        section.normal{
+            background-color: white;
+            color: black;
+        }
+
+        section.imagem{
+            padding-bottom: 50px;
+        }
+
+        section.imagem > p{
+            color: white;
+            background-color: rgba(0, 0, 0, 0.479);
+            width: 400px;
+        }
+
+        section p{
+            font-family: "Sriracha", cursive;
+            font-size: ;
+        }
+
+
+        #img01{
+            background: white url('../imagens/background001.jpg') center center no-repeat fixed;
+        }
+
+        #img02{
+            background: white url('../imagens/background002.jpg') center center no-repeat fixed;
+        }
+
+        footer{
+            text-align: center;
+            color: white;
+            background-color: black;
+            padding: 10px;
+        }
+
+        footer p{
+            font-family: sans-serif;
+        }
