@@ -6,8 +6,9 @@
     <title>Media Query</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/media-query.css">
 </head>
-<body>
+<body onresize="mudouTamanho() ">
     <header>
         <h1>Meu Site</h1>
         <i id="burguer" class="material-symbols-outlined" onclick="clickMenu()">menu</i>
@@ -23,10 +24,11 @@
     </header>
     <main>
         <article>
-            <h2>Giovanna gatinha miau</h2>
-            <p>ela é bem gatinha mesmo fiu fiu
+            <h2>Hamburguin</h2>
+            <p>site hamburguer</p>
             <br>
             <br>
+            <p>
                 You've been my muse for a long time
             You get me through every dark night
             I'm always gone, out on the go
@@ -82,6 +84,14 @@
         </article>
     </main>
     <script>
+        function mudouTamanho(){
+            /*se a largura da minha tela for maior q 768px o menuzin vai virar um bloco*/if (window.innerWidth >= 768) {
+                menuzin.style.display = 'block'
+            } /*senão*/ else  {
+                menuzin.style.display = 'none'
+            } /*não mostra o menu*/
+        }
+
         function clickMenu() {
             if (menuzin.style.display == 'block') {menuzin.style.display = 'none'} else{
                 menuzin.style.display = 'block'
